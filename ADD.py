@@ -1,5 +1,4 @@
 #Python code for addition
-num1 = 10
-num2 = 10
-sum = num1 + num2
-print("Sum of given numbers = " + sum)
+def Add(a,b):
+
+    return(a+b)
