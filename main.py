@@ -2,6 +2,7 @@ from product import product
 from division import division
 from ADD import Add
 from subtract import subtract
+from power import power
 
 run = True
 while run:
@@ -27,5 +28,6 @@ while run:
 
         elif option == '4':
             output = division(value_x, value_y)
-
+        elif option == '5':
+            output = power(value_x, value_y)
         print(str(output) + '\n')
