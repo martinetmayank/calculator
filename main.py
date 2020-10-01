@@ -3,6 +3,7 @@ from division import division
 from ADD import Add
 from subtract import subtract
 from power import power
+from root import root
 
 run = True
 while run:
@@ -28,6 +29,11 @@ while run:
 
         elif option == '4':
             output = division(value_x, value_y)
+
         elif option == '5':
             output = power(value_x, value_y)
+
+        elif option == '6':
+            output = root(value_x, value_y)
+
         print(str(output) + '\n')
